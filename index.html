@@ -15,6 +15,7 @@
     사용자가 지정한 마지막 link 태그 뒤에 star-rating 요소 내부의 css를 JavaScript로 자동 추가한다.
     <link href="star-rating/theme.css" rel="stylesheet" />
     -->
+    <!-- #9. 모듈화 사용-->
     <script type="module" src="app.js"></script>
   </head>
   <body>
@@ -24,6 +25,10 @@
     <div class="current-rating">current rating: <span>0</span></div>
 
     <div class="star-rating" data-max-rating="3"></div>
+    <div class="current-rating">current rating: <span>0</span></div>
+
+    <!-- #2. 요소 재사용 -->
+    <div class="star-rating" data-max-rating="7"></div>
     <div class="current-rating">current rating: <span>0</span></div>
   </body>
 </html>
